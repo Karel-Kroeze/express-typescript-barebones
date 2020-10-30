@@ -1,0 +1,31 @@
+{
+    "name": "express-typescript-barebones",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "serve": "concurrently -n tsc,express -c magenta.dim,cyan.dim \"tsc -w\" \"nodemon ./lib/app.js\""
+    },
+    "dependencies": {
+        "@types/bytes": "^3.1.0",
+        "@types/cookie-parser": "^1.4.2",
+        "@types/cors": "^2.8.8",
+        "@types/morgan": "^1.9.2",
+        "body-parser": "^1.19.0",
+        "bytes": "^3.1.0",
+        "chalk": "^4.1.0",
+        "cookie-parser": "^1.4.5",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "http-status-codes": "^2.1.4",
+        "morgan": "^1.10.0",
+        "typescript": "^4.0.5"
+    },
+    "devDependencies": {
+        "@types/dotenv": "^8.2.0",
+        "@types/express": "^4.17.8",
+        "concurrently": "^5.3.0",
+        "nodemon": "^2.0.6"
+    }
+}

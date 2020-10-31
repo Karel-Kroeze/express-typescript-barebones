@@ -1,5 +1,11 @@
 # the black hole
 node_modules
 
+# here be secrets
+.env
+
+# here be compiled stuff
+lib
+
 # get latest versions on install
 yarn.lock
